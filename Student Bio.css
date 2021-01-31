@@ -1,0 +1,52 @@
+body{
+  background-image: url("Black\ Homepage\ Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%;
+ }
+ 
+ html{
+   height:100%;
+ }
+
+ 
+ h1{
+   color: black;
+   font-size: 30px;
+   font-weight:100;
+   position: fixed;
+   right:2%;
+   font-family: 'Pacifico', cursive;
+ }
+ 
+ #title{
+   bottom:60%;
+ }
+ 
+ #subtitle{
+   bottom:50%;
+   font-size: 25px;
+ }
+ 
+ nav{
+   color: black;
+   font-family: 'Open Sans', sans-serif;
+ }
+ 
+ @media only screen and (max-width: 375px){
+   h1{
+     font-size: 25px;
+   }
+   #subtitle{
+     font-size:20px;
+   }
+
+    
+ @media only screen and (min-width: 992px){
+  h1{
+    font-size: 50px;
+  }
+  #subtitle{
+    font-size:45px;
+  }
+}
